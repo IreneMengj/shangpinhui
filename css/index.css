@@ -1,0 +1,36 @@
+/* basic css */
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/* topbar start */
+.topbar {
+  height: 30px;
+  background-color: #ececec;
+}
+
+.welcome {
+  height: 30px;
+  line-height: 30px;
+  font-size: 0;
+  color: #666;
+}
+
+.welcome span,
+.welcome a {
+  font-size: 12px;
+}
+
+.welcome .hello {
+  margin-right: 28px;
+}
+.welcome .login {
+  padding-right: 10px;
+  border-right: 1px solid #666;
+}
+.welcome .register {
+  padding-left: 10px;
+}
+
+/* topbar end */
