@@ -1,10 +1,11 @@
-/* basic css */
+/* #region basic css */
 .container {
   width: 1190px;
   margin: 0 auto;
 }
+/* #endregion basic css */
 
-/* topbar start */
+/* #region topbar start */
 .topbar {
   height: 30px;
   background-color: #ececec;
@@ -50,9 +51,9 @@
   padding-right: 0;
   border: 0;
 }
-/* topbar end */
+/* #endregion topbar end */
 
-/* header start*/
+/* #region header start*/
 .header {
   height: 120px;
 }
@@ -77,9 +78,9 @@
   background-repeat: no-repeat;
   background-position: 28px 6px;
 }
-/* header end*/
+/* #endregion header end*/
 
-/* main nav start */
+/* #region main nav start */
 .main-nav {
   height: 48px;
   border-bottom: 1px solid #dd302d;
@@ -102,4 +103,35 @@
   margin: 0 20px;
   font-size: 16px;
 }
-/* main nav end */
+/* #endregion main nav end */
+
+/* #region main content start */
+.main-content {
+  margin-top: 10px;
+}
+.main-content .slide-nav {
+  width: 190px;
+  height: 498px;
+  padding: 16px;
+}
+.main-content .slide-nav li {
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+}
+.main-content .slide-nav li:hover {
+  background-color: #dd302d;
+}
+.main-content .slide-nav li:hover a {
+  color: white;
+}
+.main-content .banner {
+  width: 690px;
+  height: 498px;
+  margin: 0 10px;
+}
+.main-content .slide-other {
+  width: 290px;
+  height: 498px;
+}
+/* #endregion main content start */
